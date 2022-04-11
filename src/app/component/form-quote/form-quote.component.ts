@@ -17,6 +17,7 @@ export class FormQuoteComponent implements OnInit {
   quoteAuthor!: string;
   newMessage: any;
   
+  
   constructor() { }
   
   messages: Quotes[] = [
@@ -28,6 +29,10 @@ export class FormQuoteComponent implements OnInit {
   submitQuote() {
     this.newMessage= new Quotes(this.quoteName,this.quoteMessage,this.quoteAuthor,this.upVote,this.downVote,this.time);
     this.messages.push(this.newMessage);
+  }
+
+  quoteDelete(complete: boolean){
+   
   }
 
   ngOnInit(): void {
