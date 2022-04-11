@@ -27,6 +27,21 @@
 
     <div class="col-md-7 p-4 text-center">
 
+      <div class="card"  *ngFor='let quote of messages'>
+        <blockquote class="blockquote">
+          <p>{{quote.quoteName}}</p>
+      
+          <p>{{quote.quoteMessage}}</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          <cite title="Source Title">{{quote.quoteAuthor}}</cite>
+          <p>{{quote.time  | date:'MM/dd/yyyy' }}</p>
+          <p>Posted {{quote.time }} ago</p>
+       </figcaption>
+      </div>
+
+      
+
     </div>
 
 
