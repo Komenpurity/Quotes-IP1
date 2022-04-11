@@ -7,7 +7,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 This is an Angular application where users can create quotes and have those quotes voted on whether they are terrible or are inspirational.
 
 ## Live Demo
- 
+ https://quotes-app-alpha.vercel.app/
 
 
 ## Development server
