@@ -38,6 +38,12 @@
           <p>{{quote.time  | date:'MM/dd/yyyy' }}</p>
           <p>Posted {{quote.time }} ago</p>
        </figcaption>
+
+       <div class="d-grid gap-2 d-md-block">
+        <app-vote [upvote]="quote.upVote" [downvote]="quote.downVote" ></app-vote>
+        <button type="button" class="btn btn-outline-danger m-1"> Delete </button>
+      </div>
+      
       </div>
 
       
