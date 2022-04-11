@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class QuoteComponent implements OnInit {
 
+  heading: string = "Quotes App"
+
   constructor() { }
 
   ngOnInit(): void {
