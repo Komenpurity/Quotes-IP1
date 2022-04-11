@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { QuoteComponent } from './component/quote/quote.component';
 import { FormQuoteComponent } from './component/form-quote/form-quote.component';
 import { VoteComponent } from './component/vote/vote.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { VoteComponent } from './component/vote/vote.component';
     VoteComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
