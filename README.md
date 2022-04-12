@@ -1,5 +1,7 @@
-## Quotes Project
+## Quotes App 
+created by Purity Jepkorir
 
+## Project
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
 
 ## Description of the project
@@ -21,7 +23,7 @@ You need to have git installed. If not, you can install git with the following c
 ## Setup/Installation Requirements
 
 * Open your terminal.
-* Use this command to clone `$ git clone git@github.com:Komenpurity/QuotesApp.git'.
+* Use this command to clone `$ git clone git@github.com:Komenpurity/Quotes-IP1.git'.
 * This will clone the repositoty into your local folder.
 * Install Angular, npm, nvm and all dependencies.
 * Run ng serve -o to build and run on browser via http://localhost:4200.
